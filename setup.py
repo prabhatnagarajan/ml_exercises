@@ -8,17 +8,14 @@ setup(
     packages=find_packages(),
     python_requires='>=3.6',
     install_requires=[
-        # Add dependencies here as needed
+        'matplotlib',
+        'pandas',
+        'scikit-learn',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
     ],
 )
